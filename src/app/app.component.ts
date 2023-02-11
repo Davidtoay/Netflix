@@ -166,70 +166,70 @@ export class AppComponent {
     {
       title: "La Casa de Papel",
       image: {
-        src: "./Netflix.App\src\app\componentes\films\assets\Top10\1-papel.webp",
+        src: ".\Netflix.App\src\app\componentes\films\assets\Top10\_1-papel.webp",
         alt: "papel",
       }
     },
     {
       title: "La Reina del Flow",
       image: {
-        src: "./Netflix.App\src\app\componentes\films\assets\Top10\2-reina.webp",
+        src: "./Netflix.App\src\app\componentes\films\assets\Top10\_2-reina.webp",
         alt: "reina",
       }
     },
     {
       title: "Titanes",
       image: {
-        src: "./Netflix.App\src\app\componentes\films\assets\Top10\3-titanes.webp",
+        src: "./Netflix.App\src\app\componentes\films\assets\Top10\_3-titanes.webp",
         alt: "titanes",
       }
     },
     {
       title: "Lost in Space",
       image: {
-        src: "./Netflix.App\src\app\componentes\films\assets\Top10\4-lostinspace.webp",
+        src: "./Netflix.App\src\app\componentes\films\assets\Top10\_4-lostinspace.webp",
         alt: "lostinspace",
       }
     },
     {
       title: "Donde Caben Dos",
       image: {
-        src: "./Netflix.App\src\app\componentes\films\assets\Top10\5-dondecaben.webp",
+        src: "./Netflix.App\src\app\componentes\films\assets\Top10\_5-dondecaben.webp",
         alt: "donde caben dos",
       }
     },
     {
       title: "Aquí no hay quien viva",
       image: {
-        src: "./Netflix.App\src\app\componentes\films\assets\Top10\6-aquinohay.webp",
+        src: "./Netflix.App\src\app\componentes\films\assets\Top10\_6-aquinohay.webp",
         alt: "aqui no hay",
       }
     },
     {
       title: "Blacklist",
       image: {
-        src: "./Netflix.App\src\app\componentes\films\assets\Top10\7-blacklist.webp",
+        src: "./Netflix.App\src\app\componentes\films\assets\Top10\_7-blacklist.webp",
         alt: "black list",
       }
     },
     {
       title: "Ricosy Mimados",
       image: {
-        src: "./Netflix.App\src\app\componentes\films\assets\Top10\8-ricos.webp",
+        src: "./Netflix.App\src\app\componentes\films\assets\Top10\_8-ricos.webp",
         alt: "ricos",
       }
     },
     {
       title: "El Poder del Perro",
       image: {
-        src: "./Netflix.App\src\app\componentes\films\assets\Top10\9-poder.webp",
+        src: "./Netflix.App\src\app\componentes\films\assets\Top10\_9-poder.webp",
         alt: "poder",
       }
     },
     {
       title: "The Good Doctor",
       image: {
-        src: "./Netflix.App\src\app\componentes\films\assets\Top10\10-gooddoctor.webp",
+        src: "./Netflix.App\src\app\componentes\films\assets\Top10\_10-gooddoctor.webp",
         alt: "good doctor",
       }
     }]
