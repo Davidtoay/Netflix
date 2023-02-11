@@ -16,7 +16,7 @@ export class AppComponent {
     {
       title: "Apostol",
       image: {
-        src: "./Netflix.App\src\app\componentes\films\assets\Terror\apostol.jpg",
+        src: "Netflix.App/src/assets/Terror/apostol.jpg",
         alt: "apostol",
       }
     },
