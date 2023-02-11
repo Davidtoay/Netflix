@@ -1,15 +1,9 @@
 
-<!-- <div>
-    <h2>Categorias: {{comedyFilms.section}}</h2>
-</div>
+<section class="history">
+    <h2>{{history.section}}</h2>
+        <div *ngFor="let histories of history.hero">
+            <h3>Título: {{histories.title}}</h3>
+            <img src="{{histories.image.src}}" alt="{{histories.image.alt}}">
+        </div>
+</section>
 
-<div class="comedyFilms">
-    <h3>Título: {{comedyFilms.hero.title}}</h3>
-    <img src="{{comedyFilms.hero.img.src[.length]}}" alt="{{comedyFilms.hero.img.alt}}">
-    <h3>Título: {{comedyFilms.hero.title1}}</h3>
-    <img src="{{comedyFilms.hero.img1.src}}" alt="{{comedyFilms.hero.img1.alt}}">
-
-</div> -->
-<a [routerLink]="'hero'">
-    <img src="comedyFilms.hero.image.src" alt="{{comedyFilms.hero.image.alt}}">
-</a>

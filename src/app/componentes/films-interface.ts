@@ -1,5 +1,18 @@
-import { RouterLinkWithHref } from "@angular/router";
+export interface GaleryFilms {
+    section: string;
+    hero: HeroInterface[]
+}
 
+export interface HeroInterface {
+    title: string;
+    image: ImageInterface
+}
+
+export interface ImageInterface {
+    src: string;
+    alt: string;
+}
+/*
 export interface TerrorFilms {
     section: string;
     hero: [{
@@ -146,3 +159,4 @@ export interface ComedyFilms {
         }
     }]
 }
+*/
