@@ -1,9 +1,10 @@
 
 <section class="history">
-    <h2>{{history.section}}</h2>
+    <h2>{{history.section}}
         <div *ngFor="let histories of history.hero">
-            <h3>Título: {{histories.title}}</h3>
+            <h6>{{histories.title}}</h6>
             <img src="{{histories.image.src}}" alt="{{histories.image.alt}}">
         </div>
+    </h2>
 </section>
 
