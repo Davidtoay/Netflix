@@ -11,7 +11,7 @@ export class AppComponent {
   //title = 'Netflix.App';
 
   public terrorFilms: GaleryFilms = {
-    section: "Terror",
+    section: "TERROR",
     hero: [
     {
       title: "Apostol",
@@ -72,7 +72,7 @@ export class AppComponent {
   }
 
   public comedyFilms: GaleryFilms = {
-    section: "Comedia",
+    section: "COMEDIA",
     hero: [
     {
       title: "Casi 300",
@@ -161,7 +161,7 @@ export class AppComponent {
   }
   
   public topTen: GaleryFilms = {
-    section: "Tendencia",
+    section: "TENDENCIA",
     hero: [
     {
       title: "La Casa de Papel",

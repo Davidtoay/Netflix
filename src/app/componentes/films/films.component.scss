@@ -1,8 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 h2{
-    display: grid;
-    justify-content: space-between;
-    align-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-family: fantasy;
+    font-weight: 100;
 }
 
 h6{
@@ -10,12 +14,18 @@ h6{
 
 }
 
-div{
-    //margin-left: -100px;
+.history{
+    display: grid;
+    justify-content: space-between;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 
+._films{
+    padding-right: 10px;
 }
 
 img{
-    width: 340px;
-    height: 220px;
+    width: 250px;
+    height: 150px;
 }

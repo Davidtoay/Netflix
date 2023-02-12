@@ -1,10 +1,14 @@
 
-<section class="history">
-    <h2>{{history.section}}
-        <div *ngFor="let histories of history.hero">
-            <h6>{{histories.title}}</h6>
+<section >
+    <div >
+        <h2>{{history.section}}</h2>
+        <div class="history">
+            <div class="_films" *ngFor="let histories of history.hero">
+            <!-- <h6>{{histories.title}}</h6> -->
             <img src="{{histories.image.src}}" alt="{{histories.image.alt}}">
+            </div>
         </div>
-    </h2>
+    </div>
+    
 </section>
 
