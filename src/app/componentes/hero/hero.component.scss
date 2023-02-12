@@ -1,4 +1,29 @@
+h2{
+    font-family: fantasy;
+    font-weight: 100;
+}
+
+
+.history{
+    display: grid;
+    justify-content: space-between;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+p{
+    display: grid;
+    font-size: 200px;
+    justify-content: space-between;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+._films{
+    padding-right: 10px;
+}
+
 img{
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 200px;
 }
